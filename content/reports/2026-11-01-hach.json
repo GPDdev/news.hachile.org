@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-01",
+  "type": "hach",
+  "title": "11 月 1 日 HACH 日报",
+  "summary": "Meta 人形机器人、DeepSeek Super-agent、国行 Apple 智能接入阿里千问等 6 条 AI 行业新闻。",
+  "items": [
+    {
+      "source": "华尔街见闻",
+      "summary": "代号Max的原型三个月造出，搭载Thor芯片，定位Muse物理化身，Max 2已启动研发。",
+      "title": "Meta联手傅利叶造人形机器人",
+      "url": "https://www.sohu.com/a/1095645243_130887"
+    },
+    {
+      "source": "潮新闻",
+      "summary": "Router加Worker双层设计接管多任务调度，原型已开源，内部实例已在日常研发中运行。",
+      "title": "DeepSeek公开Super-agent架构",
+      "url": "https://tidenews.com.cn/news.html?id=3602095"
+    },
+    {
+      "source": "新浪科技",
+      "summary": "11月4日随iOS开发者测试版开放，12月随iOS 27.3正式推送，覆盖Siri与写作工具。",
+      "title": "国行Apple智能接入阿里千问",
+      "url": "https://finance.sina.cn/tech/2026-10-31/detail-inixaray1752640.d.html"
+    },
+    {
+      "source": "21世纪经济报道",
+      "summary": "物理AI概念指数半月涨超25%，资金正从数字AI向能感知会决策的实体智能迁移。",
+      "title": "物理AI站上A股投资风口",
+      "url": "https://www.21jingji.com/article/20261101/herald/9a3610487660ae439b383693c3fff50a.html"
+    },
+    {
+      "source": "快科技",
+      "summary": "12月起Plus、Pro与Business套餐额度合池，按Token计量，Instant聊天不计入额度。",
+      "title": "OpenAI合并ChatGPT与Codex额度",
+      "url": "https://finance.sina.cn/stock/jdts/2026-11-01/detail-inixetzy1007253.d.html"
+    },
+    {
+      "source": "智东西",
+      "summary": "Xiaomi-OCR-0融文档解析、信息抽取与视觉问答于一体，1B以下模型中解析成绩领先。",
+      "title": "小米开源0.8B文档理解模型",
+      "url": "https://news.sina.cn/ai/2026-10-31/detail-inixcwwk1414857.d.html"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131b">
+  <meta name="description" content="HACH News，按日归档 AI 早报与 HACH 日报。">
+  <link rel="canonical" href="https://news.hachile.org/">
+  <link rel="icon" type="image/svg+xml" href="/icon.svg">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script src="/assets/archive.js" defer></script>
+  <title>HACH News | AI 早报与 HACH 日报</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header wrap">
+    <a class="brand" href="/" aria-label="HACH News 首页"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M7 7h22v22H7zM12 12h4v4h-4zm8 0h4m-4 4h4m-12 5h12m-12 4h12"/></svg><span>HACH <b>NEWS</b></span></a>
+    <nav aria-label="主导航"><a class="current" href="#archive">日报归档</a><a href="#about">关于</a><a class="home-link" href="https://home.hachile.org/">个人主页 <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main" class="wrap">
+    <section class="masthead" aria-labelledby="page-title">
+      <div class="masthead-top"><span class="edition-label"><span class="edition-dot"></span>THE DAILY AI DIGEST</span><span class="domain">NEWS.HACHILE.ORG</span></div>
+      <div class="masthead-main"><div><h1 id="page-title">AI 的新一天<span>，</span><br>从这里开始<span>。</span></h1><p class="masthead-description">AI 早报与 HACH 日报。<br>每天的动态，留下一份可以回看的记录。</p></div><div class="masthead-mark" aria-hidden="true"><span>HACH</span><strong>日<br>报</strong><span class="mark-caption">READ. THINK. REPEAT.</span></div></div>
+      <div class="masthead-bottom"><span>两个栏目，一份每日档案</span><span class="archive-meta">已归档 <strong>{{count}}</strong> 份日报</span></div>
+    </section>
+
+    <section class="channels" aria-label="日报栏目">
+      <a class="channel channel-morning" href="#archive" data-channel="ai"><span class="channel-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M3 23h26M6 19a10 10 0 0 1 20 0M16 3v4M5 8l3 3m19-3-3 3M2 17h4m20 0h4"/></svg></span><div><span class="overline">01 / MORNING BRIEF</span><h2>AI 早报</h2><p>模型、产品与行业动态，开启新的一天。</p></div><span class="channel-arrow" aria-hidden="true">↗</span></a>
+      <a class="channel channel-hach" href="#archive" data-channel="hach"><span class="channel-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M22 3a12 12 0 1 0 7 19A13 13 0 0 1 22 3ZM26 5v6m-3-3h6"/></svg></span><div><span class="overline">02 / HACH DAILY</span><h2>HACH 日报</h2><p>整理当天值得关注的 AI 进展。</p></div><span class="channel-arrow" aria-hidden="true">↗</span></a>
+    </section>
+
+    <section class="archive" id="archive" aria-labelledby="archive-title">
+      <div class="section-title"><div><span class="overline">THE ARCHIVE</span><h2 id="archive-title">日报归档</h2></div><span class="section-note">按日期，从新到旧</span></div>
+      <div class="archive-toolbar" id="archive-controls" hidden><div class="filters" role="group" aria-label="选择日报栏目"><button type="button" data-type="all" aria-pressed="true">全部</button><button type="button" data-type="ai" aria-pressed="false">AI 早报</button><button type="button" data-type="hach" aria-pressed="false">HACH 日报</button></div><div class="date-filter"><label for="archive-date">按日期</label><input id="archive-date" type="date" aria-label="筛选日报日期"><button id="clear-date" type="button" hidden>清除</button></div></div>
+      <p class="result-count" id="result-count" role="status">共 {{count}} 份日报</p>
+      <div class="report-list" id="report-list">{{reports}}</div>
+      <noscript><p class="noscript-note">开启 JavaScript 可使用栏目与日期筛选；全部日报仍可直接阅读。</p></noscript>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title"><span class="overline">ABOUT THIS PUBLICATION</span><div><h2 id="about-title">日常更新，长期留存。</h2><p>这里是 HACH 的 AI 日报档案。AI 早报与 HACH 日报分别归档，每期内容拥有独立页面，方便阅读、分享与回看。</p><p>新闻条目会保留来源入口，完整信息请以原始来源为准。</p></div></section>
+  </main>
+  <footer class="site-footer wrap"><a class="footer-wordmark" href="/">HACH NEWS<span>AI 每日简报</span></a><div><a href="https://home.hachile.org/">Gunpowder Central</a><a href="https://site.hachile.org/">Hachile 站点目录</a><span>© 2026 GPDdev</span></div></footer>
+  <script type="application/json" id="archive-data">{{data}}</script>
+</body>
+</html>

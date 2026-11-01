@@ -1,0 +1,12 @@
+{
+  "name": "hachile-news",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test scripts/build.test.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs"
+  }
+}

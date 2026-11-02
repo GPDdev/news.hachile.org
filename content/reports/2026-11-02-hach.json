@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-02",
+  "type": "hach",
+  "title": "11月2日 HACH 日报",
+  "summary": "今日6条：机器科学数亿元A2轮融资、OpenAI重写模型准则、美司法部审查英伟达收购Hugging Face、Krafton社交智能机器人AI、GenRobot 1亿美元A+轮，以及中国具身AI上半年融资935亿元。",
+  "items": [
+    {
+      "title": "机器科学完成数亿元A2轮融资",
+      "summary": "由琥珀资本等领投，资金用于具身大模型迭代与物流、零售等场景落地。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.cn/stock/jdts/2026-11-02/detail-inixipwy7208755.d.html"
+    },
+    {
+      "title": "OpenAI重写模型准则五大价值",
+      "summary": "首条为忠于人类意图，另含减害、诚实透明、自主性与关怀，禁自我保存等行为。",
+      "source": "量子位",
+      "url": "https://k.sina.cn/article_5952915705_162d248f906703s9z4.html?from=tech"
+    },
+    {
+      "title": "美司法部审查英伟达收购案",
+      "summary": "129.3亿美元收购Hugging Face交易遭问询，焦点是模型分发渠道的中立性。",
+      "source": "UNWIRE",
+      "url": "https://unwire.pro/2026/10/31/nvidia-hugging-face-doj-antitrust-probe/news/"
+    },
+    {
+      "title": "Krafton发布社交智能机器人AI",
+      "summary": "Ludi 0.2在加州机器人研讨会亮相，强化意图理解、手势识别与任务记忆。",
+      "source": "Aju Press",
+      "url": "https://www.ajupress.com/view/20261102104529934"
+    },
+    {
+      "title": "GenRobot获1亿美元A+轮融资",
+      "summary": "北京机器人数据公司披露1亿美元A+轮，上汽、百度等战略参投。",
+      "source": "AI Weekly",
+      "url": "https://aiweekly.co/alerts/genrobot-ai-discloses-100m-series-a-for-robot-training-data"
+    },
+    {
+      "title": "中国具身AI上半年融资935亿元",
+      "summary": "322笔交易、同比约五倍，资金正从本体硬件转向具身AI软件。",
+      "source": "路透社",
+      "url": "https://letsdatascience.com/news/chinese-robot-makers-shift-spending-to-embodied-ai-software-188abfc9"
+    }
+  ]
+}

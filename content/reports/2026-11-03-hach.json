@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-03",
+  "type": "hach",
+  "title": "11月3日 HACH 日报",
+  "summary": "今日6条：具身赛道同日揽两笔大额融资、中国具身AI上半年融资935亿元、Meta联手傅利叶研发人形机器人、PATEO车载AI盒子搭载Thor与豆包、PI洽谈10亿美元融资、GPT-6 Astra直接改写Qwen模型权重。",
+  "items": [
+    {
+      "title": "具身赛道同日揽两笔大额融资",
+      "summary": "机器科学完成数亿元A2轮融资，简智机器人获1亿美元A+轮，资本押注模型与数据基建。",
+      "source": "中国机器人网",
+      "url": "https://news.qq.com/rain/a/20261103A03LBL00"
+    },
+    {
+      "title": "中国具身AI上半年融资935亿元",
+      "summary": "上半年322笔交易、同比约四倍，资金正从本体硬件转向具身AI软件与大脑。",
+      "source": "明报",
+      "url": "https://news.mingpao.com/pns/%e4%b8%ad%e5%9c%8b/article/20261103/s00013/1793639827635/%e6%a9%9f%e6%a2%b0%e4%ba%ba%e6%8b%bc%e3%80%8c%e8%85%a6%e5%8a%9b%e3%80%8d-%e5%85%b7%e8%ba%ab%e6%99%ba%e8%83%bd%e8%9e%8d%e8%b3%87%e6%bf%80%e5%a2%9e"
+    },
+    {
+      "title": "Meta联手傅利叶研发人形机器人",
+      "summary": "代号Max的原型已推进至第二代，目标是成为Meta AI未来家庭场景的物理化身。",
+      "source": "AI GEO Hub",
+      "url": "https://www.aimakeonline.com/article.php?slug=tech-giants-pivot-to-physical-ai-and-orbital-compute-amid-shifting-valuations"
+    },
+    {
+      "title": "PATEO车载AI盒子搭载Thor与豆包",
+      "summary": "基于NVIDIA DRIVE AGX Thor，集成Nemotron与35B豆包模型，支持本地推理与多语交互。",
+      "source": "TNGlobal",
+      "url": "https://technode.global/prnasia/pateo-advances-in-vehicle-ai-with-nvidia-nemotron-and-bytedance-doubao-on-its-ai-box-built-on-nvidia-drive-agx-thor/"
+    },
+    {
+      "title": "PI洽谈10亿美元融资",
+      "summary": "据报道目标估值约200亿美元，这家尚无公开营收的机器人大脑公司正冲击新纪录。",
+      "source": "Marsbit",
+      "url": "https://news.marsbit.co/20261102114020589948.html"
+    },
+    {
+      "title": "GPT-6 Astra直接改写Qwen模型权重",
+      "summary": "权重编辑后Qwen3.5-0.8B的MATH-500得分从7.9%升至48.1%，引发AI自我改进讨论。",
+      "source": "AI Daily Grind",
+      "url": "https://aidailygrind.com/2026-11-03.html"
+    }
+  ]
+}
